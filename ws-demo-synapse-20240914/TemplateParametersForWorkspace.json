@@ -1,0 +1,18 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "ws-demo-synapse-20240914"
+		},
+		"ws-demo-synapse-20240914-WorkspaceDefaultSqlServer_connectionString": {
+			"value": "Integrated Security=False;Encrypt=True;Connection Timeout=30;Data Source=tcp:ws-demo-synapse-20240914.sql.azuresynapse.net,1433;Initial Catalog=@{linkedService().DBName}"
+		},
+		"AdventureWorks Products_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/master/Azure-Synapse/products.csv"
+		},
+		"ws-demo-synapse-20240914-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://demodatalake20240914.dfs.core.windows.net"
+		}
+	}
+}
