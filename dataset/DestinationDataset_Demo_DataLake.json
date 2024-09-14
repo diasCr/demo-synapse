@@ -1,5 +1,5 @@
 {
-	"name": "DestinationDataset_08i",
+	"name": "DestinationDataset_Demo_DataLake",
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "ws-demo-synapse-20240914-WorkspaceDefaultStorage",

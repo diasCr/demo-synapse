@@ -55,13 +55,13 @@
 				},
 				"inputs": [
 					{
-						"referenceName": "SourceDataset_08i",
+						"referenceName": "SourceDataset_AdventureWorks_Products",
 						"type": "DatasetReference"
 					}
 				],
 				"outputs": [
 					{
-						"referenceName": "DestinationDataset_08i",
+						"referenceName": "DestinationDataset_Demo_DataLake",
 						"type": "DatasetReference"
 					}
 				]
